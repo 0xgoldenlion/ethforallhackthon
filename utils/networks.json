@@ -11,19 +11,6 @@
     },
     "blockExplorerUrls": []
   },
-  "80001": {
-    "chainId": "80001",
-    "chainName": "Polygon Testnet Mumbai",
-    "rpcUrls": [
-      "https://rpc-mumbai.maticvigil.com/"
-    ],
-    "nativeCurrency": {
-      "symbol": "MATIC"
-    },
-    "blockExplorerUrls": [
-      "https://mumbai.polygonscan.com/"
-    ]
-  },
   "5001": {
     "chainId": "5001",
     "chainName": "Mantle",
