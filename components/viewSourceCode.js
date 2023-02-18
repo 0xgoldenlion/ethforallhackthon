@@ -1,4 +1,4 @@
-const GITHUB_LINK = "https://github.com/0xgoldenlion/ethforallhackthon";
+const GITHUB_LINK = "https://github.com/0xgoldenlion/comma";
 
 export default function ViewSourceCode() {
   return (
