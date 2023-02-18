@@ -1,0 +1,27 @@
+{
+  "selectedChain": "5001",
+  "1337": {
+    "chainId": "1337",
+    "chainName": "Localhost 8545",
+    "rpcUrls": [
+      "http://localhost:8545"
+    ],
+    "nativeCurrency": {
+      "symbol": "ETH"
+    },
+    "blockExplorerUrls": []
+  },
+  "5001": {
+    "chainId": "5001",
+    "chainName": "Mantle",
+    "rpcUrls": [
+      "https://rpc.testnet.mantle.xyz"
+    ],
+    "nativeCurrency": {
+      "symbol": "BIT"
+    },
+    "blockExplorerUrls": [
+      "https://explorer.testnet.mantle.xyz/"
+    ]
+  }
+}
