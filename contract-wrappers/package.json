@@ -4,7 +4,9 @@
   "private": true,
   "version": "0.9.5",
   "scripts": {
-    "build": "npx polywrap build",
+    "build": "yarn build:polywrap",
+    "build:polywrap": "npx polywrap build",
+    "build:contract": "node ./scripts/build-contract.js",
     "test:env:up": "npx polywrap infra up --modules=eth-ens-ipfs",
     "test:env:down": "npx polywrap infra down --modules=eth-ens-ipfs",
     "deploy": "npx polywrap deploy",
@@ -14,12 +16,15 @@
     "test:workflow": "npx polywrap run -o ./workflows/output.json"
   },
   "devDependencies": {
-    "@types/jest": "26.0.8",
-    "assemblyscript": "0.19.23",
+    "@types/jest": "27.0.3",
+    "@types/node": "16.11.11",
+    "assemblyscript": "0.19.1",
     "jest": "26.6.3",
     "polywrap": "0.9.5",
-    "ts-jest": "26.5.4",
-    "typescript": "4.1.6"
+    "solc": "0.8.4",
+    "ts-jest": "26.5.5",
+    "ts-node": "8.10.2",
+    "typescript": "4.0.7"
   },
   "dependencies": {
     "@polywrap/wasm-as": "0.9.5"

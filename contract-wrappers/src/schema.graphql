@@ -1,7 +1,15 @@
-type Module {
-    sampleMethod(arg: String!): SampleResult!
-}
+#import { Module, Connection , TxResponse} into Ethereum from "wrap://ens/ethereum.polywrap.eth"
 
-type SampleResult {
-    result: String!
+type Module {
+    """
+    Module to interact with the suduku smart contracct 
+    """
+    verifyAndMintNft(
+        """
+        verify suduku board and mint 
+        """
+        address: String!
+        value: [String!]!
+        connection: Ethereum_Connection
+    ) : Ethereum_TxResponse
 }

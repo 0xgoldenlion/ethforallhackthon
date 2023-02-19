@@ -1,0 +1,1 @@
+export const wrapper = 'wrap://ipfs/QmaGnjGv1j5a9SBZL3NcCJ1Mn67HiBRMU4JELPyoaaJnr'
